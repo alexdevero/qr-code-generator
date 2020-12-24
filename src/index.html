@@ -14,15 +14,19 @@
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <textarea name="" id="textarea" class="border border-2 p-2" placeholder="Enter text for your QR Code"></textarea>
 
-    <div>
-      <textarea name="" id="textarea"></textarea>
+          <button id="btn" class="btn btn-primary mt-2">Generate QR Code</button>
+        </div>
 
-      <button id="btn">Generate code</button>
+        <div class="col-md-6">
+          <canvas id="canvas"></canvas>
+        </div>
+      </div>
     </div>
-
-    <canvas id="canvas"></canvas>
 
     <!-- You can also require other files to run in this process -->
     <script src="./scripts/renderer.js"></script>
