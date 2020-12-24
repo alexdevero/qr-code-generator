@@ -4,6 +4,10 @@ const path = require('path')
 
 const isDev = require('electron-is-dev')
 
+try {
+  require('electron-reloader')(module)
+} catch (_) {}
+
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
