@@ -17,7 +17,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^11.1.0"
+    "electron": "^11.1.0",
+    "electron-reloader": "^1.1.0"
   },
   "dependencies": {
     "electron-is-dev": "^1.2.0",
