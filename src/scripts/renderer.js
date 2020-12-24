@@ -10,7 +10,7 @@ const textarea = document.querySelector('#textarea')
 const btn = document.querySelector('#btn')
 
 function generateQRCode() {
-  window.QRCode.toCanvas(canvas, textarea.value)
+  window.QRCode.toCanvas(canvas, textarea.value, { width: 220 })
     .then((url) => console.log(url))
     .catch(err => console.log(err))
 }
