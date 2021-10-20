@@ -29,7 +29,7 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^15.0.0",
+    "electron": "^15.2.0",
     "electron-reloader": "^1.2.1"
   },
   "dependencies": {
