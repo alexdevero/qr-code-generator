@@ -33,7 +33,7 @@
     "electron-reloader": "^1.2.3"
   },
   "dependencies": {
-    "electron-is-dev": "^2.0.0",
+    "electron-is-dev": "^3.0.1",
     "qrcode": "^1.5.1"
   }
 }
